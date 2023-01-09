@@ -1,0 +1,138 @@
+@font-face
+/*used on greys page be careful*/
+{
+  font-family: daydream;
+  src: url("/css_pages/Daydream.ttf");
+}
+
+body
+/*⛔ DO NOT TOUCH THIS IS A NO TOUCHING ZONE ⛔*/
+{
+font-family: 'Pangolin', cursive;
+background-color: #987654;
+color: #1e1811;
+text-align: center;
+}
+
+.al
+/*used in 1 place not a big deal if messed with*/
+{
+  list-style-type: none;
+  display: block;
+  color: #9a7b4f;
+  background-color: #65350f;
+  margin-left: 35em;
+  margin-right: 35em;
+}
+
+ul
+/*unsure of touchability*/
+{
+  list-style-type: none;
+  display: inline;
+  padding: 30;
+  text-align: center;
+}
+
+p
+{
+  font-size: 1em;
+}
+
+h1
+{
+  font-family: 'Pangolin', cursive;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+button
+/*absolutley do not delete used almost everywhere 
+on the site THINGS WILL BREAK*/
+{
+  font-family: 'Pangolin', cursive;
+  background-color: #3d2f22;
+  border-style: dotted;
+  font-size: 1em;
+  border: 5em #0f0c08;
+  border-radius: 1em;
+}
+
+a
+{
+  color: #7a5e43;
+  text-decoration: none;
+}
+
+img
+/*used on all alter pages dont mess with too much*/
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+.badge
+{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 7%;
+}
+/*all .pkfronters edits: be very careful with editing if an 
+accident happens it will not be good*/
+.pkfronters--member-list--pronouns,
+.pkfronters--member-card--pronouns
+{
+	word-break: break-word;
+	text-align: center;
+}
+
+.pkfronters--member-list--pronouns::before,
+.pkfronters--member-card--pronouns::before
+{
+	content: '\0020(';
+	text-align: center;
+}
+
+.pkfronters--member-list--pronouns::after,
+.pkfronters--member-card--pronouns::after
+{
+	content: ')\0020';
+	text-align: center;
+}
+
+.pkfronters--member-card-container
+{
+	display: flex;
+	flex-flow: row wrap;
+	gap: 1rem;
+	justify-content: center;
+}
+
+.pkfronters--member-card
+{
+	display: flex;
+	flex-flow: column wrap;
+	max-width: 8em;
+	background: #987654;
+	color: #1e1811;
+}
+
+.pkfronters--member-card--avatar
+{
+	min-width: 6rem;
+	width: 6rem;
+	min-height: 6rem;
+	height: 6rem;
+	margin: 0 0 0.5rem 0;
+	border-radius: 4px;
+	border: 4px solid transparent;
+	
+}
+
+.pkfronters--member-card--name
+{
+	text-align: center;
+}
